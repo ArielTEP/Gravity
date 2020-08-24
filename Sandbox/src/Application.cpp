@@ -1,8 +1,11 @@
 
-namespace Gravity {
+namespace Gravity 
+{
 	__declspec(dllimport) void Print();
 }
 
-void main() {
+int main() 
+{
 	Gravity::Print();
+	return 0;
 }
